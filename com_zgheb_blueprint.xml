@@ -1,0 +1,5 @@
+<zimlet name="com_zgheb_blueprint" version="1.0.0" label="Label" description="Description">
+   <include>com_zgheb_blueprint.js</include>
+   <includeCSS>com_zgheb_blueprint.css</includeCSS>
+   <handlerObject>com_zgheb_blueprint_HandlerObject</handlerObject>
+</zimlet>
