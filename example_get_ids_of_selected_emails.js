@@ -24,7 +24,7 @@ ch_hin_reportspam_HandlerObject.prototype._getSelectedIDs= function (viewId,sent
   }else if(viewId === ZmId.VIEW_CONV) {
     ids=currentView._msgViewList;
   }else if(viewId === ZmId.VIEW_MSG){
-    ids.push(currentView._viewId.replace(/\D/g,''));
+    ids.push(appCtxt.getCurrentController()._view[appCtxt.getCurrentController()._currentViewId]._item.id);
   }
   return ids;
 }
